@@ -1,0 +1,207 @@
+.styled-element {
+    color: blue;
+    font-size: 18px;
+  }
+
+  .form-container {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }  
+  .my-column {
+    margin: 0 auto;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .label-overlap {
+    position: relative;
+    bottom: -12px;
+    background-color: white;
+    padding: 0 5px;
+    width:20%;
+    margin-left:5px;
+    font-size: 14px;
+  }
+
+  .input-custom {
+    border: 1px solid grey;
+  }
+
+  .btn-custom {
+    width: 100%;
+    background-color: #1fb7ba;
+    color: white
+  }
+
+  .label-dev {
+    font-size: 25px;
+    color: #1fb7ba;
+  }
+
+  .containerParent {
+    background-color: #f2f2f2;
+  }
+
+  .containerCard {
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  
+
+  .containerChild {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    padding: 15px;
+
+  }
+  
+  .card {
+
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .btn-link {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .edit-button {
+    color: #007bff;
+  }
+  
+  .delete-button {
+    color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .icon-wrapper i {
+    margin-right: 5px;
+  }
+  
+  .icon-wrapper span {
+    display: inline-block;
+  }
+
+
+  .action-container {
+    float: right;
+  }
+
+  .type-pill {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #1fb7ba;
+    color: white;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .label-large  {
+    font-size: 20px;
+    color: #1fb7ba;
+  }
+  .label-detail {
+    font-size: 12px;
+  }
+
+  .label-detail-address {
+    font-size: 14px;
+  }
+
+  .label-meet {
+    font-size: 20px;
+    margin: 30px;
+  }
+
+
+  .transparent-button {
+    background: transparent;
+    border: 1px solid #1fb7ba;
+    color: #1fb7ba;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px; 
+    float: right;
+  }
+  
+  .transparent-button i {
+    margin-left: 5px;
+  }
+  
+  .label {
+    margin-right: 5px;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .icon-color {
+    color: #1fb7ba;
+  }
+
+  /* Apply the scrollbar color to the entire page */
+ body {
+    scrollbar-color: #1fb7ba #ffffff; /* Change the color values as needed */
+  }
+  
+  /* Customize the scrollbar track */
+  ::-webkit-scrollbar {
+    width: 2px; /* Adjust the width of the scrollbar as needed */
+  }
+  
+  /* Customize the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #1fb7ba; /* Change the color to #1fb7ba */
+  }
+  
+  /* Customize the scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #0d7a7d; /* Change the hover color to a darker shade if desired */
+  }
+
+  .btn-no {
+    background-color: #fff;
+    color: #000;
+    width:100px;
+  }
+  
+  .btn-yes {
+    background-color: #1fb7ba;
+    color: #fff;
+    width:100px;
+  }
+  
+  
